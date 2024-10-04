@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="./chat.css">
+</head>
+<body>
+
+<div class="messageDisplay" id="messageDisplay">
+
+</div>
+<div class="userBox">
+    
+    <div class="blueUser">
+        <div class="blueIcon"></div>
+        <input type="text" placeholder="Input blue message" id="blueInput">
+        <button onclick="blueSend()">Send</button>
+    </div>
+
+    <div class="redUser">
+        <div class="redIcon"></div>
+        <input type="text" placeholder="Input red message" id="redInput">
+        <button onclick="redSend()">Send</button>
+    </div>
+
+</div>
+
+
+    <script src="./chat.js"></script>
+</body>
+</html>
